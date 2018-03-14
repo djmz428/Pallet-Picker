@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #d3d3d3;
+}
+
+.swatch {
+	width: 18%;
+	border: 1px solid black;
+	border-radius: 2%;
+	margin: 1% 0.76%;
+	display: inline-block;
+}
+
+.palette {
+	width: 100%;
+	height: 15vh;
+	border-bottom: 1px solid black;
+	border-radius: 2%;
+}
+
+.detail {
+	width: 100%;
+	height: 3vh;
+	text-align: center;
+}
+
+#container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+#banner {
+	height: 15vh;
+	background-color: #606060;
+	color: #d3d3d3;
+	font-family: sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.colsPicked {
+	border-radius: 50%;
+	border: 3px solid black;
+	width: 20px;
+	height: 20px;
+	margin-left: 0.5%;
+}
+
+#strip {
+	text-align: center;
+	margin-top: 1%;
+}
